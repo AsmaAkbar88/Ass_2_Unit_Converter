@@ -1,6 +1,8 @@
 # pip install streamlit
 
 import  streamlit as st
+
+st.set_page_config(page_title = "⏳ Unit Converter", layout = 'wide')
 st.title("🌏 Unit Converter")
 st.subheader(" Converters Distance, Length, Weight and Time Instantly")
 st.write("Welcome ! Select a category, enter a value and get the converted result in real time")
