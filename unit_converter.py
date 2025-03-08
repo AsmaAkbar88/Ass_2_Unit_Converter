@@ -90,4 +90,4 @@ elif category == "Time" :
     if st.button("Convert"):
         result = time_converter(from_unit , to_unit , value)
         st.success(f"{value} {from_unit} = {result:.2f} {to_unit }")
-st.markdown("<h6 style='text-align: right; color: gray;'> 2025 © Code & Creativity by Asma Akba ✨ </h6>" , unsafe_allow_html=True)
+st.markdown("<h6 style='text-align: right; color: gray;'> 2025 © Code & Creativity by Asma Akbar ✨ </h6>" , unsafe_allow_html=True)
